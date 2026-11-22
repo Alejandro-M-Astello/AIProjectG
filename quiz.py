@@ -1,3 +1,10 @@
+"""
+quiz.py
+Loads generated flashcards from flashcards/deck.json and runs an interactive
+spaced-repetition study session using weighted random selection and a local
+Ollama LLM to evaluate user answers.
+"""
+
 # Import built-in module for working with file paths and checking if files exist
 import os
 # Import built-in module for reading and writing JSON flashcard data
