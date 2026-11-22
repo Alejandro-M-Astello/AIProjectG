@@ -47,6 +47,7 @@ Build a lightweight, modular two-stage CLI pipeline in Python backed by a local 
 | **Phase 2: Core Pipeline Implementation** | Nov 17–18, 2026 | Implement `generate_cards.py` (`pypdf` + `pydantic` structured outputs) and `quiz.py` (Leitner box weights + 4 grader personas). | Completed |
 | **Phase 3: Verification & Edge-Case Testing** | Nov 18, 2026 | Validate end-to-end execution using Computer Networks lecture PDFs as a sample (`CNI6e Ch 18`, `CNI6e Ch 20`), verify box promotion/demotion, and capture terminal screenshots. | Completed |
 | **Phase 4: Documentation & Repository Cleanup** | Nov 18–19, 2026 | Author `requirements.md`, `PLANNING.md`, `AI_USAGE_LOG.md`, `README.md`, and `requirements.txt`; archive prototype scripts and clear out `slides/` for uploading to GitHub. | Completed |
+| **Phase 5: Final Verification & Code Polish** | Nov 21, 2026 | Add module docstrings, output schema comments, and local Ollama server notes across `generate_cards.py`, `quiz.py`, and `README.md`; verify end-to-end execution. | Completed |
 
 ---
 
