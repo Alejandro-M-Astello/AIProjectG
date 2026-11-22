@@ -201,3 +201,8 @@ def main():
 if __name__ == "__main__":
     main()
 
+# Spaced-repetition summary:
+# - Box 1: Newly generated or missed cards (highest review frequency)
+# - Box 2: Cards answered correctly once
+# - Box 3: Mastered cards promoted after consecutive correct answers (lowest frequency)
+# - Progress is persisted immediately to flashcards/deck.json after each question
