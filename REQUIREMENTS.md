@@ -42,6 +42,11 @@ AIProjectG/
     "box": 1
   }
 ]
+
+- **`chapter` (`string`):** Source PDF filename stem used to group cards by lecture topic.
+- **`question` (`string`):** Concept question generated and validated via Pydantic (`Flashcard` model).
+- **`answer` (`string`):** Reference answer extracted from the lecture PDF.
+- **`box` (`integer`):** Leitner spaced-repetition tier (`1`–`3`), initialized to `1` on creation and updated dynamically by `quiz.py`.
 ```
 
 ---
