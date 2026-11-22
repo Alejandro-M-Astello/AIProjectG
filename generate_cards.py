@@ -1,3 +1,9 @@
+"""
+generate_cards.py
+Extracts text from PDF files and uses a local 
+Ollama LLM with pydantic schema validation to genereate structured JSON flashcards
+"""
+
 # Import the built-in module for working with folders and file paths
 import os
 
