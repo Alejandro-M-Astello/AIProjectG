@@ -41,6 +41,7 @@ AIProjectG/
    ```bash
    ollama pull llama3.2
    ```
+   **Note:** Ensure the Ollama local server is running in the background (`ollama serve` or the desktop app) before running the scripts.
    
 2. **Clone the Repository & Install Python Dependencies:**
    ```bash
