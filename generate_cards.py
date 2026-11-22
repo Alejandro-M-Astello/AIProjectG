@@ -123,3 +123,9 @@ def main():
 # Standard Python entry-point check so main() only runs when executed directly
 if __name__ == "__main__":
     main()
+#Output Schema Summary
+#Each entry saved in flashcards/deck.json contains:
+# - "chapter": PDF filename stem used as the study topic
+# - "question": Generated Concept Question
+# - "answer": Verified answer derived from the lecture PDFs
+# - "box": Spaced-repetition Leitner box Level, which is initialized to 1 for quiz.py
